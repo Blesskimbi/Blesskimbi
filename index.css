@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 5px;
+    background-color: #f7f7f7;
+    background-image: url("images/doctor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.header {
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    background: #033461;
+}
+
+.main-content {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url('images/hero-image.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: orange;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+.membership-btns {
+    width: 100%;
+    display: block;
+    padding: 2% 0;
+    margin: 5% 0;
+}
+
+.membership-btn {
+    background-color: #033461;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 0 35px;
+}
+
+.membership-btn:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.team-member {
+    margin: 20px;
+}
+
+.team-member img {
+    width: 200px;
+    height: 185px;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+}
+
+.team-members h1 {
+    font-size: 20px;
+    margin-left: 0px;
+    color: green;
+    margin-top: 0px;
+}
+
+.social-media {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 10px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+.header span {
+    color: orange;
+}
+
+.about-text h1 {
+    margin-top: -100px;
+}
+
+.about-text em {
+    color: darkred;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header section input {
+    justify-content: right;
+    float: right;
+    margin-top: -50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: orange;
+    border: 3px solid orange;
+}
+
+.header section button {
+    justify-content: right;
+    float: right;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid green;
+    background: green;
+    font-size: 20px;
+    font-family: MV Boli;
+}
+
+.header section button:hover {
+    cursor: pointer;
+}
+
+.header em {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+h3 {
+    color: #033461;
+    margin-bottom: -100px;
+}
+
+footer {
+    background-color: #033461;
+    color: #fff;
+    text-align: center;
+    padding: 5rem;
+}
+
+table {
+    text-align: justify;
+    justify-content: space-between;
+    border-spacing: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+th {
+    color: #0d68bb;
+}

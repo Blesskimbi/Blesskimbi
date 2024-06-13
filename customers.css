@@ -1,0 +1,406 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 5px;
+    background-color: #f7f7f7;
+    background-image: url("images/doctor.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.header {
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    background: #033461;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('images/hero-image.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: orange;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+.membership-btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.membership-btn {
+    background-color: #033461;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.membership-btn:hover {
+    background-color: red;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.team-member {
+    margin: 20px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 90px;
+    box-sizing: border-box;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+}
+
+.team-members h1 {
+    font-size: 20px;
+    margin-left: 0px;
+    color: green;
+    margin-top: 0px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 10px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.header span {
+    color: orange;
+}
+
+.header section input {
+    justify-content: right;
+    float: right;
+    margin-top: -50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: orange;
+    border: 3px solid orange;
+}
+
+.header section button {
+    justify-content: right;
+    float: right;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid green;
+    background: green;
+    font-size: 20px;
+    font-family: MV Boli;
+}
+
+.header section button:hover {
+    cursor: pointer;
+}
+
+.header em {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+h3 {
+    color: #033461;
+    margin-bottom: -100px;
+}
+
+footer {
+    background-color: #033461;
+    color: #fff;
+    text-align: center;
+    padding: 5rem;
+    margin-bottom: 0px;
+}
+
+table {
+    text-align: justify;
+    justify-content: space-between;
+    border-spacing: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+th {
+    color: #0d68bb;
+}
+
+#withdrawal-form {
+    max-width: 50%;
+    margin: 40px 25%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.form-field {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin: 5px 5px;
+    padding: 2px 5px;
+    background-color: #033461;
+    color: white;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.form-field input[type="text"],
+.form-field input[type="number"],
+.form-field input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: 3px solid #033461;
+    border-radius: 10px;
+    border-right: 3px solid #033461;
+}
+
+.customer-bio {
+    display: flex;
+    align-items: center;
+    width: 104%;
+    box-sizing: border-box;
+}
+
+#bio-img {
+    width: 8%;
+    height: 27px;
+    margin: 0 3px;
+    margin-left: -6px;
+    margin-top: -3px;
+    display: inline-block;
+    background-image: url("images/finger-print_5648839.png");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#submit-btn {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #2E865F;
+}
+
+#warn-holder {
+    background-color: #0ad60a;
+    border: 2px solid #033461;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 28%;
+    box-sizing: border-box;
+}
+
+#close-warning {
+    margin-left: 85%;
+    background-color: black;
+    border-radius: 50%;
+    padding: 3px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#close-warning:hover {
+    background-color: whitesmoke;
+    color: red;
+}
+
+#confirm-warning {
+    border: 2px solid black;
+    color: black;
+    padding: 5px 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#confirm-warning:hover {
+    background-color: whitesmoke;
+    color: green;
+}
+
+#result3-text {
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+    display: inline;
+}
+
+.check-btn {
+    background-color: black;
+    border-radius: 50%;
+    padding: 4px 10px;
+    margin: 0 21%;
+    margin-top: -15px;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.check-btn:hover {
+    background-color: whitesmoke;
+    border: 2px solid #033461;
+    color: red;
+}
+
+.recents {
+    background-color: yellow;
+    width: 24.70%;
+    margin: 10px 0;
+    padding: 2px 0;
+    padding-bottom: 110px;
+    display: inline-block;
+    text-align: center;
+}
+
+.recents h3 {
+    margin-top: 1px;
+    padding: 2px 0;
+    border-radius: 100px;
+    text-decoration: underline;
+}
+
+.recents ul {
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 120px;
+}
+
+.recents li {
+    display: block;
+    font-size: 25px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#recent-names-holder {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#recent-time-holder {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#recsent-content {
+    display: none;
+}
+
+#admin-holder {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#admin-holder h1 {
+    color: #033461;
+    font-size: 45px;
+}
+
+#admin-btn {
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    background-color: #033461;
+    font-weight: bold;
+    color: white;
+}
+
+#admin-btn:hover {
+    border: 1px solid #033461;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#admin-inputel {
+    padding: 9px 20px;
+    width: 15%;
+    font-size: 18px;
+    border: 2px solid #033461;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="images/icon.png" media="all">
+    <link rel="stylesheet" href="customers.css">
+
+    <title>EasyBank</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+
+                <a style="color: white;" href="index.html">
+                    <h1>K<span>     -   BANK<em>WIDRAWALz</em></span></h1>
+                </a>
+
+                <section>
+                    <button>CONTACT US</button>
+                    <input type="text" placeholder="search">
+                </section>
+        </nav>
+    </header>
+
+    <div class="me">
+        <div id="withdrawal-form">
+            <h2>Withdrawal Form</h2>
+            <div class="form-field">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Please enter your name">
+            </div>
+            <div class="form-field">
+                <label for="account-balance">Account Balance:</label>
+                <input type="number" id="account-balance" name="account-balance" placeholder="Please enter your account balance">
+            </div>
+
+            <!-- this is the warner start-->
+
+            <div id="warn-holder">
+                <span id="close-warning">X</span>
+
+                <p id="result1-text"></p>
+                <p id="result2-text"></p>
+                <p id="time-text" style="display: none;">TRANSACTION TIME:<span id="result3-text"></span></p>
+                <p id="result4-text"></p>
+
+
+                <a id="confirm-warning">OK</a>
+
+            </div>
+            <!-- this is the warner end -->
+
+            <div class="form-field">
+                <label for="amount-to-withdraw">Amount to Withdraw:</label>
+                <input type="number" id="amount-to-withdraw" name="amount-to-withdraw" placeholder="Please enter the withdrawal amount">
+            </div>
+
+            <div style="margin-top: -13px;" class="form-field">
+                <h4 style="text-align: center; margin-top:-10px;">PIN CODE OR BIOMETRIC</h4>
+
+                <span class="check-btn" id="toggle-pin">P</span>
+
+                <span class="check-btn" id="toggle-bio">B</span>
+            </div>
+
+            <div style="display: none;" id="pin-holder" class="form-field">
+                <label for="customer-pin">Pin Info:</label>
+                <input type="password" id="customer-pin" name="customer-pin" placeholder="Please enter your pin">
+            </div>
+
+            <div style="display: none;" id="bio-holder" class="form-field customer-bio">
+                <label for="customer-bio">Biometric Info:</label>
+                <span id="bio-img"></span>
+                <input type="text" id="customer-bio" name="customer-bio" placeholder="Please enter your biometric">
+            </div>
+
+            <button id="submit-btn">Withdraw</button>
+        </div>
+    </div>
+
+    <div id="admin-holder">
+        <h1>View Recent Transactions</h1>
+
+        <button id="admin-btn">VIEW</button>
+        <input id="admin-inputel" type="text" placeholder="Admin Code" width="">
+    </div>
+
+    <section id="recsent-content">
+        <div id="recent-holer">
+
+            <div class="recents" id="recent-names-holder">
+                <h3>Customer Name</h3>
+
+                <ul id="names">
+                </ul>
+
+            </div>
+
+            <div class="recents" id="recent-amount-holder">
+                <h3>Amount Withdrawed</h3>
+
+                <ul id="withdrawed">
+                </ul>
+            </div>
+
+            <div class="recents" id="recent-balance-holder">
+                <h3>Account Balance</h3>
+
+                <ul id="balance">
+
+                </ul>
+            </div>
+
+            <div class="recents" id="recent-time-holder">
+
+                <h3>Transaction Time</h3>
+
+                <ul id="time">
+
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <style>
+            footer table {
+                text-align: center;
+                padding: 0 !important;
+                text-transform: uppercase;
+                margin-bottom: 50px;
+            }
+            
+            footer table th {
+                font-size: 27px;
+                text-transform: uppercase;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>REGiONS</td>
+                    <th>OUR LOCATIONS</td>
+                        <th>ABOUT US</td>
+            </tr>
+            <tr>
+                <td>North West</td>
+                <td>Bamenda - Bambili</td>
+                <td>Careers</td>
+            </tr>
+            <tr>
+                <td>South West</td>
+                <td>Buea - Malingo</td>
+                <td>Mobile Money</td>
+            </tr>
+            <tr>
+                <td>Litoral</td>
+                <td>Douala - Akwa Nord</td>
+                <td>Procurements</td>
+            </tr>
+            <tr>
+                <td>Centre</td>
+                <td>Yaounde - Obili</td>
+                <td>Publications</td>
+                <tr>
+                    <td>North</td>
+                    <td>Maroua h</td>
+                    <td>FAQS</td>
+                </tr>
+            </tr>
+        </table>
+        <p style="margin-left: -30px;">&copy; 2024 K-BANK WIDRAWALz</p>
+        <marquee>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel praesentium quod iusto voluptatibus voluptas mollitia voluptatum commodi, deleniti nisi impedit totam blanditiis nobis tenetur, ullam numquam sint excepturi quam doloremque.</p>
+        </marquee>
+    </footer>
+
+</body>
+
+<script src="customer.js"></script>
+
+</html>
